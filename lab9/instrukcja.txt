@@ -1,0 +1,13 @@
+W folderze znajduje sie plik Makefile
+Aby skompilowac programy mozna wywylac polecenie
+>make all
+W jego wyniku otrzymamy nastepujace pliki:
+ - zad1_f - zadanie 1, precyzja float
+ - zad1_d - zadanie 1, precyzja double
+ - zad2 - zadanie 2, precyzja double
+ - zad3_g - zadanie 3, precyzja double, metoda Gaussa
+ - zad3_t - zadanie 3, precyzja double, algorytm Thomasa
+ Kazdy program przyjmuje jako parametr liczbe zmiennych dla ktorych ma zostac utworzony uklad rownan
+ Przyladaowe uruchomienie skompilowanego programu:
+ >./zad1_f 2
+ >./zad3_t 100
