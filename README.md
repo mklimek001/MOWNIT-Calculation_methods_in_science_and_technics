@@ -44,3 +44,7 @@ Obliczenia dla różnych precyzji.
  - System of equations – Jacobi method
  - Radius of iteration matrix
 
+##### Parallel gaussian elimination
+Algorithm for gaussian elimination, based on Dikert's Traces Theory. 
+Python files help to create proper algorithm and return proper dependency graph (graphviz).
+Ready alimination algorithm use CUDA.

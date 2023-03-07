@@ -1,0 +1,134 @@
+digraph gaussian_elimination_diekert {
+	A21 [color=red]
+	B121 [color=blue]
+	C121 [color=green]
+	A21 -> B121
+	B121 -> C121
+	B221 [color=blue]
+	C221 [color=green]
+	A21 -> B221
+	B221 -> C221
+	B321 [color=blue]
+	C321 [color=green]
+	A21 -> B321
+	B321 -> C321
+	B421 [color=blue]
+	C421 [color=green]
+	A21 -> B421
+	B421 -> C421
+	B521 [color=blue]
+	C521 [color=green]
+	A21 -> B521
+	B521 -> C521
+	A31 [color=red]
+	B131 [color=blue]
+	C131 [color=green]
+	A31 -> B131
+	B131 -> C131
+	B231 [color=blue]
+	C231 [color=green]
+	A31 -> B231
+	B231 -> C231
+	B331 [color=blue]
+	C331 [color=green]
+	A31 -> B331
+	B331 -> C331
+	B431 [color=blue]
+	C431 [color=green]
+	A31 -> B431
+	B431 -> C431
+	B531 [color=blue]
+	C531 [color=green]
+	A31 -> B531
+	B531 -> C531
+	A41 [color=red]
+	B141 [color=blue]
+	C141 [color=green]
+	A41 -> B141
+	B141 -> C141
+	B241 [color=blue]
+	C241 [color=green]
+	A41 -> B241
+	B241 -> C241
+	B341 [color=blue]
+	C341 [color=green]
+	A41 -> B341
+	B341 -> C341
+	B441 [color=blue]
+	C441 [color=green]
+	A41 -> B441
+	B441 -> C441
+	B541 [color=blue]
+	C541 [color=green]
+	A41 -> B541
+	B541 -> C541
+	A32 [color=red]
+	B232 [color=blue]
+	C232 [color=green]
+	A32 -> B232
+	B232 -> C232
+	B332 [color=blue]
+	C332 [color=green]
+	A32 -> B332
+	B332 -> C332
+	B432 [color=blue]
+	C432 [color=green]
+	A32 -> B432
+	B432 -> C432
+	B532 [color=blue]
+	C532 [color=green]
+	A32 -> B532
+	B532 -> C532
+	A42 [color=red]
+	B242 [color=blue]
+	C242 [color=green]
+	A42 -> B242
+	B242 -> C242
+	B342 [color=blue]
+	C342 [color=green]
+	A42 -> B342
+	B342 -> C342
+	B442 [color=blue]
+	C442 [color=green]
+	A42 -> B442
+	B442 -> C442
+	B542 [color=blue]
+	C542 [color=green]
+	A42 -> B542
+	B542 -> C542
+	A43 [color=red]
+	B343 [color=blue]
+	C343 [color=green]
+	A43 -> B343
+	B343 -> C343
+	B443 [color=blue]
+	C443 [color=green]
+	A43 -> B443
+	B443 -> C443
+	B543 [color=blue]
+	C543 [color=green]
+	A43 -> B543
+	B543 -> C543
+	C221 -> A32
+	C221 -> A42
+	C231 -> A32
+	C241 -> A42
+	C332 -> A43
+	C342 -> A43
+	C321 -> B332
+	C321 -> B342
+	C421 -> B432
+	C421 -> B442
+	C521 -> B532
+	C521 -> B542
+	C432 -> B443
+	C532 -> B543
+	C331 -> C332
+	C431 -> C432
+	C531 -> C532
+	C341 -> C342
+	C441 -> C442
+	C541 -> C542
+	C442 -> C443
+	C542 -> C543
+}
